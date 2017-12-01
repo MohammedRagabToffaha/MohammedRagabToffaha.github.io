@@ -1,0 +1,342 @@
+
+body{
+  
+}
+/* navbar #E1E1E1 */
+.navbar-default {
+    background-color: #B80303;
+   
+}
+
+
+ .nav{
+    background-color: #fff;
+   /* border-color: #EEEEEE;*/
+}
+ #side-menu > li >a{
+    color: #434343; 
+    font-weight: bold;
+
+}
+  
+  
+  #side-menu > li >a.active{
+    
+    background-color: #FBB900;
+    color: #B80303;
+}
+#side-menu > li >a:hover{
+  background-color: #E1E1E1; 
+  color: #B80303;
+}
+#logo,#l,#ll{
+  position:absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+    left: 0;
+    display:inline;
+    float: left;
+}
+  #ll{
+      width:100%;
+    }
+  @media screen and (max-width: 768px) {
+    #logo,#emptyCol {
+        display:none;
+    }
+    #addNewCustomer{
+      width: 120px;
+    }
+  
+}
+
+#addNewCustomer,#AddStockBtn{
+  background-color: #FBB900;
+  color: #B80303;
+  margin-right: 0;
+
+
+}
+#showInvoice{
+  background-color: #FBB900;
+  color: #B80303;
+    
+}
+
+#addNewCustomer:hover,#showInvoice:hover,#sellInvoice:hover,#AddStockBtn:hover,#subStockBtn{
+  background-color: #FFCF4D;
+ 
+}
+
+#addFees,#addCat,#add_longTermPurchase,#sellInvoice,#Addotherservices,#custMonyBtn,#giveCustMonyBtn,.paidRemainsReservationBtn,
+.deliverMonyReservationBtn,.withdrowMortg3Btn,.withdrow7gzBtn,#addCat1,#addNewReservation,
+.erga3QuantBtn,#PayMonyBtn{
+  background-color: #B80303;/*red*/
+  color: #fff;
+}
+#addFees:hover,#addCat:hover,#add_longTermPurchase:hover,#addCat1:hover,#sellInvoice:hover,#Addotherservices:hover,#custMonyBtn:hover,#giveCustMonyBtn:hover,
+.paidRemainsReservationBtn:hover,.deliverMonyReservationBtn:hover,.withdrowMortg3Btn:hover,.withdrow7gzBtn:hover,
+.erga3QuantBtn:hover,#PayMonyBtn:hover
+{
+  background-color: #9F0202;
+  color: #FBB900;/*yellow*/
+}
+#hgzLbl:hover,#addNewReservation:hover,#AllReservLbl:hover,.ShowReservedCostLbl:hover,.WithdrowMonyLbl:hover,
+.WithdrowAwzanLbl:hover,.PayRemainMonyLbl:hover,#ReservationListLbl:hover,#AgelResevLbl:hover,
+#ReservDetailsLbl:hover,#lastErtga3Lbl:hover,#khaznaDetailsLbl:hover,#lastaCustomersMoyPaid:hover,#fokEl7sabMonyLbl:hover
+,#lastCustomersSales:hover,#DeliverdAsMonyLbl:hover,#TlbyatDetailsLbl:hover{
+  background-color: #FFCF4D;
+  color: #B80303;/*red*/
+}
+#hgzLbl,#AllReservLbl,.ShowReservedCostLbl,.WithdrowMonyLbl,.WithdrowAwzanLbl,.PayRemainMonyLbl,#ReservationListLbl,
+#AgelResevLbl,#ReservDetailsLbl,#lastErtga3Lbl,#khaznaDetailsLbl,#lastaCustomersMoyPaid,#fokEl7sabMonyLbl,
+#lastCustomersSales,#DeliverdAsMonyLbl,#TlbyatDetailsLbl{
+  background-color: #FBB900;
+  color: #B80303;
+}
+#AgelTotalRemainMonyLbl,#AgelTotalMonyForCustLbl{
+  background-color: #B89A03;
+  color: #fff;
+}
+.fa-refresh:hover{
+  color: #fff;
+}
+.showInvoice,.AddDepositeImg{
+  background-color: #B89A03;
+  color: #fff;
+}
+.showInvoice:hover,.AddDepositeImg:hover{
+  background-color: #B8B803;
+  color: #fff;
+  
+}
+.printInvoice,.ShowDepositeImg{
+  background-color: #B85E03;
+  color: #fff;
+}
+.printInvoice:hover,.ShowDepositeImg:hover{
+  background-color: #B87C03;
+  color: #fff;
+  
+}
+.erga3,.deleteDeposite{
+  background-color: #B80303;
+  color: #fff;
+}
+.erga3:hover,.deleteDeposite:hover{
+  background-color: #C73B3B;
+  color: #fff;
+  
+}
+#crud_table tr,#cotherFees_table tr,#user_data tr { line-height: 40px; }
+table{
+  white-space: nowrap;
+
+}
+.table-responsive  {
+  overflow: auto;
+
+}
+table.dataTable.hover tbody tr:hover{
+  background-color: #FBB900 !important;
+  color: #B80303 !important;
+}
+ul.list-unstyled,ul.list-unstyledReport{  
+ background-color:#eee;  
+ cursor:pointer;  
+ }  
+ ul.list-unstyled li,ul.list-unstyledReport li{  
+      padding:6px;  
+ }
+ .invoicemodelContent{
+    background: linear-gradient(
+    to right, 
+    #DCDCDC 0%,
+    #DCDCDC 5%,
+
+    #F0F0F0 5%, 
+    #F0F0F0 50%, 
+    #FFFFFF 50%, 
+    #FFFFFF 100%
+  );
+    padding-left: 7%;
+    padding-right: 20px; 
+ }
+ fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+
+#divCompName,#totalQuantityDiv,#alltableDiv,#detailsDiv,#depositDiv,#payAmountDiv,#divCustName
+,#centerImgInvoiceDiv,#paidMonyDetailsDiv,#divCustName,#totalCustQuantityDiv,
+#custTableDiv,#custdetailsDiv,#divmoredName,#mordeenTableDiv,#putMonyDiv,#divCustinvoice,#divmoredamount,
+#divMsrofat,#khaznaDetailsDiv,#khaznatableDiv,#khaznatwreedDiv,#divCustinvoiceTotal,#hgzDiv,#AllReservDiv,
+.divShowReservedCost,#divShowMortg3,#reservationRemainMonyDiv,#divReservationList,.divWithdrowMony,.divPayRemainMony,
+#divAgelResev,#divReservDetails,.divWithdrowAwzan,#containrowDiv,#parentDiv,#AwzancontainrowDiv,#lastErtga3Div,
+#lastaCustomersMoyPaidDiv,#fokEl7sabMonyDiv,#lastCustomersSalesDiv,#divAgelTotalRemainMony,#divKshf7sab,
+#DeliverdAsMonyDiv,#divAgelTotalMonyForCust,#preview,#imgDiv,#uploadDepoiteImgDiv,#divTlbyatDetails,#mby3atCachDiv
+,#totalAmountDRDiv,#mby3atAgelDiv,#totalamountPaidDRDiv,#totalamountRemainDRDiv,#t7selAgelDiv,#totalamountPaidDRDiv
+,#fokEl7sabDiv,#totalfokel7sabDRDiv,#mby3at7gzDiv,#total7gzDRDiv,#Div7gz,#t7selAgel7gzDiv,#erga3ReportDiv,#deliverdAsMDiv
+,#deliverdAsM7gzDiv,#eda3atDiv,#msrofatDiv,#totalAddedDiv,#totalSubTractedDiv,#safyDiv,#mby3atRebtaDiv,#totalAmountRebtaDiv{
+  text-align: center;
+}
+#companyName,#totalQuantity,#detailsText,#depositText,#payAmountLbl,#custNameLbl,
+#paidMonyDetailsLbl,#CustNameID,#totalCustQuantityID,#custTableID,#custdetailsText,
+#moredNameID,#mordeenTableID,#putMonyID,#CustinvoiceLbl,#moredamountID,#MsrofatLbl,#khaznaDetailsLbl,#khaznatablelbl
+,#khaznatwreedLbl,#CustinvoiceTotalLbl,#hgzLbl,.ShowReservedCostLbl,#ShowMortg3Lbl,.WithdrowMonyLbl,
+.PayRemainMonyLbl,#AllReservLbl,.WithdrowAwzanLbl,#lastaCustomersMoyPaid,#fokEl7sabMonyLbl,#lastCustomersSales,
+#AgelTotalRemainMonyLbl,#DeliverdAsMonyLbl,#AgelTotalMonyForCustLbl,#mby3atCachLbl,#mby3atAgelLbl,#t7selAgelLbl
+,#fokEl7sabLbl,#mby3at7gzLbl,#Lbl7gz,#t7selAgel7gzLbl,#erga3ReportLbl,#deliverdAsMLbl,#deliverdAsM7gzLbl,#eda3atLbl
+,#msrofatLbl,#totalAddedLbl,#totalSubTractedLbl,#safyLbl,#mby3atRebtaLbl{
+  border-bottom: 1px #FBB900 solid;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   }
+#alltable,#centerImgInvoiceimg,#ReservationListLbl,#AgelResevLbl,#ReservDetailsLbl,#childDiv,#chilDiv,#AwzanchildDiv,
+#lastErtga3Lbl,#Kshf7sabLbl,#deposImg,#err,#deposImgShowing,#uploadImage,#buttonUpload,#err,#TlbyatDetailsLbl{
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+} 
+#totalAmountDRLbl,#totalamountPaidDRLbl,#totalamountRemainDRLbl,#totalamountPaidDRLbl,#totalfokel7sabDRLbl
+,#total7gzDRLbl,#totalAmountRebtaLbl{
+  margin: 0 auto;
+}
+#Kshf7sabLbl{
+  margin: 0 auto;
+  margin-bottom: 2px;
+}  
+
+/*table#custPayrollTable tr.selected {
+    background-color: #7BA237 !important;
+    color:#fff;
+    vertical-align: middle;
+    padding: 1.5em;
+}*/
+.giveInvoice{
+   background-color: #7BA237 !important;
+    color:#fff;
+}
+
+.modalReloadGifPrivew,.modalReloadGifPrint,.modalReloadGifErga3,.modalReloadGifAddInv {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+  
+}
+.modalReloadGifPrivew{
+   background: rgba(0, 0, 0, 0.5) 
+                url('https://steelnet.000webhostapp.com/img/magnifyShw.gif') 
+                50% 50% 
+                no-repeat;
+}
+.modalReloadGifPrint{
+   background: rgba(0, 0, 0, 0.5) 
+                url('https://steelnet.000webhostapp.com/img/magnifyPrt.gif') 
+                50% 50% 
+                no-repeat;
+}
+.modalReloadGifErga3{
+   background: rgba(0, 0, 0, 0.5) 
+                url('https://steelnet.000webhostapp.com/img/magnifyErg3.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.modalReloadGifAddInv{
+   background: rgba(0, 0, 0, 0.5) 
+                url('https://steelnet.000webhostapp.com/img/rollingSell.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loadingPrivew,body.loadingPrint,body.loadingErga3,body.loadingAddInv {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loadingPrivew .modalReloadGifPrivew,body.loadingPrint .modalReloadGifPrint,
+body.loadingErga3 .modalReloadGifErga3,
+body.loadingAddInv .modalReloadGifAddInv {
+    display: block;
+}
+@media screen and (max-width: 550px){
+  #loginImg{
+    display: none;
+  } 
+
+/*<fieldset class="scheduler-border">
+  <legend class="scheduler-border">Start Time</legend>
+  </fieldset>*/
+
+
+
+
+ /* @media screen {
+        #printSection {
+           display: none;
+        }
+   }
+
+
+   @media print {
+        body > *:not(#invoiceModal) {
+           display: none;
+        }
+        #invoiceModal, #invoiceModal * {
+            visibility: visible;
+            
+        }
+        #invoiceModal {
+            position:absolute;
+            left:0;
+            top:0;
+        }
+
+
+
+   }
+   @media print {
+    /*-----------------------------------------*/
+/* .invoicemodelContent{
+    background: linear-gradient(
+    to right, 
+    #DCDCDC 0%,
+    #DCDCDC 5%,
+
+    #F0F0F0 5%, 
+    #F0F0F0 50%, 
+    #FFFFFF 50%, 
+    #FFFFFF 100%
+  );
+    padding-left: 7%;
+    padding-right: 20px; 
+ }*/
+
+/*----------------------------------------*/
+   }
+
+
+
+
+/*-------------------------------------------------*/
+
+i.editUnitInStock{
+  color: #B80303;
+}i.editUnitInStock:hover{
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
